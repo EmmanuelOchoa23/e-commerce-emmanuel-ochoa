@@ -1,31 +1,24 @@
+/*encabezado principal*/
 .titulo-principal{
     display: flex;
     justify-content: center;
 }
+/*contenedor del menu*/
 .menu-container {
     background-color: cornflowerblue;
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
-    
+    margin-bottom: none;
     
 }
 
-.menu {
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-}
+
 
 .menu a {
-  
     text-align: center;
     text-decoration:none ;
     color: blueviolet;
-    margin: 0 auto;
-    font-weight: 700;
-    padding: 1rem;
-    
+    font-weight: 700;  
 
 }
 
@@ -34,6 +27,7 @@
     color: blue;
 }
 
+/*imagen de fondo*/
 .img-fondo {
     background-image: url(../img/fondo-cm.png);
     background-repeat: no-repeat;
@@ -43,6 +37,7 @@
     /*padding: 20px;*/
     position: relative;
     margin-bottom: 2rem;
+    padding-top: 0rem;
 }
 .titulo-productos{
     
@@ -61,3 +56,4 @@
 .container{
     padding-bottom: 10rem;
 }
+

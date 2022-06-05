@@ -25,21 +25,75 @@
     <header>
         <h1 class="titulo-principal">Compumundohipermegared</h1>
 
+        
+
         <!--menu-->
-        <div>
-            <nav class="menu-container">
-                <ul class="menu">
+        <nav class="navbar navbar-expand-lg bg-light">
 
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="views/productos.html">Productos</a></li>
-                    <li><a href="views/quienes-Somos.html">Quienes somos</a></li>
-                    <li><a href="views/contacto.html">Contacto</a></li>
-                    <li><a href="views/clientes.html">Clientes</a></li>
+            <div class=" menu-container container-fluid">
+                <a class="navbar-brand" href="index.html">Compumundohipermegared</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                </ul>
-            </nav>
-        </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item menu">
+                            <a class="nav-link"  href="index.html">Inicio</a>
+                        </li>
+
+                        <li class="nav-item menu">
+                            <a class="nav-link" href="views/productos.html">Productos</a>
+                        </li>
+
+                        <li class="nav-item menu">
+                            <a class="nav-link" href="views/quienes-Somos.html">Quienes Somos</a>
+                        </li>
+
+                        <li class="nav-item menu">
+                            <a class="nav-link" href="views/contacto.html">Contacto</a>
+                        </li>
+
+                        <li class="nav-item menu">
+                            <a class="nav-link" href="views/clientes.html">Clientes</a>
+                        </li>
+
+                        <!--
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                productos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        -->
+
+                        <!--
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                        -->
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success menu" type="submit">Search</button>
+                    </form>
+                </div>
+
+            </div>
+        </nav>
         <!--fin menu-->
+
 
 
         <!--imagen-fondo-->
@@ -51,7 +105,7 @@
         </section>
 
         <!--productos grid bootstaps-->
-        <div class="container">
+        <section class="container">
 
             <div class="row">
                 <div class="titulo-productos">
@@ -62,57 +116,57 @@
             <div class="row">
 
                 <div class="col-sm-3">
-                    
-                    <img class="grid-item" src="./img/jbl-bt.jpg" alt="auriculares jlb inlambricos">
+
+                    <img class="grid-item  img-fluid" src="./img/jbl-bt.jpg" alt="auriculares jlb inlambricos">
                 </div>
 
                 <div class="col-sm-3">
-                    
-                    <img class="grid-item" src="./img/jbl-parlante.jpg" alt="paralante jbl">
+
+                    <img class="grid-item  img-fluid" src="./img/jbl-parlante.jpg" alt="paralante jbl">
                 </div>
 
                 <div class="col-sm-3">
-                    
-                    <img class="grid-item" src="./img/iphone-1.jpg" alt="">
+
+                    <img class="grid-item  img-fluid" src="./img/iphone-1.jpg" alt="">
                 </div>
 
                 <div class="col-sm-3">
-                    
-                    <img class="grid-item" src="./img/ps5.jpg" alt="play5">
+
+                    <img class="grid-item  img-fluid" src="./img/ps5.jpg" alt="play5">
                 </div>
             </div>
 
 
 
-                <!--fila-2-->
-                <div class="row">
+            <!--fila-2-->
+            <div class="row">
 
-                    <div class="col-sm-3">
-                        <img class="grid-item" src="./img/garmin.jpg" alt="reloj garmin">
-                    </div>
-
-
-                    <div class="col-sm-3">
-                        <img class="grid-item" src="./img/pc.jpg" alt="laptop">
-                    </div>
-
-
-                    <div class="col-sm-3">
-                        <img class="grid-item" src="./img/tablet.jpg" alt="tablet">
-                    </div>
-
-
-                    <div class="col-sm-3">
-                        <img class="grid-item" src="./img/earpods.jpg" alt=earpods">
-                    </div>
-
+                <div class="col-sm-3">
+                    <img class="grid-item" src="./img/garmin.jpg" alt="reloj garmin">
                 </div>
 
 
-            
+                <div class="col-sm-3">
+                    <img class="grid-item" src="./img/pc.jpg" alt="laptop">
+                </div>
 
 
-        </div>
+                <div class="col-sm-3">
+                    <img class="grid-item" src="./img/tablet.jpg" alt="tablet">
+                </div>
+
+
+                <div class="col-sm-3">
+                    <img class="grid-item" src="./img/earpods.jpg" alt=earpods">
+                </div>
+
+            </div>
+
+
+
+
+
+        </section>
 
 
 
